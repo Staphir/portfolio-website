@@ -1,0 +1,70 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+.collapse {
+    position: relative;
+}
+
+.top-bar {
+    width: 100%;
+    background-color: map.get(gv.$colors, "second");
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    font-family: gv.$font-family;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+
+    .chevron {
+        color: map.get(gv.$colors, "third");
+        position: absolute;
+        right: 10px;
+        top: 10px; 
+        transition: transform 200ms;
+    }
+    
+    .down {
+        transform: rotate(0deg);
+    }
+    
+    .up {
+        transform: rotate(-180deg);
+    }
+}
+
+.collapse-content {
+    background-color: map.get(gv.$colors, "gray");
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: map.get(gv.$colors, "second");
+    font-family: gv.$font-family;
+    font-size: 12px;
+    line-height: 15px;
+    transition: height 300ms;
+    overflow: hidden;
+
+    .collapse-text {
+        margin: 20px;
+    }
+}
+
+
+
+@media (min-width: gv.$desktop-width-min) {
+
+    .top-bar {
+        font-size: 24px;
+
+        .chevron {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .collapse-content {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

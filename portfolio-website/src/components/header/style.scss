@@ -1,0 +1,61 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 27px 20px;
+    background-color: map.get(gv.$colors, "first");
+}
+
+.logo-cv {
+    object-fit: cover;
+    height: 100%;
+    width: 36px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 26px;
+
+    a {
+        text-decoration: none;
+        color: map.get(gv.$colors, "gray");
+        font-family: gv.$font-family;
+        font-size: 12px;
+        align-self: center;
+    }
+
+    a:hover {
+        border-bottom-style: solid;
+        border-bottom-color: map.get(gv.$colors, "first");
+        border-width: 1px;
+    }
+
+}
+
+nav .active {
+    text-decoration: underline;
+}
+
+@media (min-width: gv.$desktop-width-min) {
+
+    header {
+        padding: 45px 100px 50px 100px;
+    }
+
+    .logo-cv {
+        width: 60px;
+    }
+
+    .menu {
+        column-gap: 57px;
+
+        a {
+            font-size: 36px;
+        }
+    }
+}

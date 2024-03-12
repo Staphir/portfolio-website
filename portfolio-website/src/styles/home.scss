@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "sass:color";
+@use "../styles/global_variables" as gv;
+
+.projects-section {
+    background-color: map.get(gv.$colors, "gray");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+}

@@ -1,0 +1,17 @@
+@use "./global_variables" as gv;
+
+.about-collapses {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+@media (min-width: gv.$desktop-width-min) {
+
+    .about-collapses {
+        margin: 40px 300px 0px 300px;
+        row-gap: 30px;
+    }
+}

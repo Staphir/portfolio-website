@@ -1,0 +1,62 @@
+@use "../../styles/global_variables" as gv;
+
+.slideshow {
+    position: relative;
+    // height: 255px;
+    width: 30%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    .slideshow-content {
+        transition-duration: 800ms;
+        
+        img {
+            object-fit: cover;
+            // height: 255px;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+
+    .controller-arrow {
+        position: absolute;
+        color: white;
+    }
+
+    .left-arrow {
+        left: 5px;
+        top: 50%;
+    }
+
+    .right-arrow {
+        right: 5px;
+        top: 50%;
+    }
+
+    .picture-index {
+        display: none;
+    }
+
+    @media (min-width: gv.$desktop-width-min) {
+        height: 415px;
+
+        .slideshow-content img {
+            height: 415px;
+        }
+
+        .left-arrow, .right-arrow {
+            width: 25px;
+            height: 40px;
+            top: 43%;
+        }
+
+        .picture-index {
+            display: block;
+            color: white;
+            font-size: 18px;
+            position: absolute;
+            left: 50%;
+            bottom: 0px;
+        }
+    }
+}

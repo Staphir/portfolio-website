@@ -1,0 +1,247 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Moteur de lancer de rayons",
+            "pictures": [
+                {
+                    "src": "lr_final.jpg",
+                    "alt": "Rendu global du lancer de rayon"
+                },
+                {
+                    "src": "lr_mirroir.jpg",
+                    "alt": "Rendu mirroir du lancer de rayon"
+                },
+                {
+                    "src": "lr_textures.jpg",
+                    "alt": "Rendu de textures du lancer de rayon"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 2,
+            "name": "Geometry Nodes plume",
+            "pictures": [
+                {
+                    "src": "Blender_feather.jpg",
+                    "alt": "Plume sur blender avec le geometry nodes"
+                },
+                {
+                    "src": "Blender_feather_geometry_nodes.jpg",
+                    "alt": "Geometry nodes de la modélisation de plume"
+                }
+            ],
+            "videos": [
+                {
+                    "src": "Blender_feather.mp4"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Geometry Nodes montagne",
+            "pictures": [
+                {
+                    "src": "Blender_mountains.jpg",
+                    "alt": "Modélisation montagnes sur Blender"
+                }
+            ],
+            "videos": [
+                {
+                    "src": "Blender_mountains.mp4"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Modélisation de sabre laser sur 3DsMax",
+            "pictures": [
+                {
+                    "src": "renduSabreLaser.jpg",
+                    "alt": "Rendu sabre laser"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 5,
+            "name": "Modélisation sur Blender",
+            "pictures": [
+                {
+                    "src": "rendu_phenix_v1.png",
+                    "alt": "Rendu phénix cubique"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 6,
+            "name": "Eclairage d'objet en WebGL",
+            "pictures": [
+                {
+                    "src": "pres_webgl_eclairage.png",
+                    "alt": "Exemple d'éclairage avec Cook-Torrance"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 7,
+            "name": "Réflexions et réfractions en WebGL",
+            "pictures": [
+                {
+                    "src": "pres_webgl_reflect_refract.png",
+                    "alt": "Exemple avec une sphère dans une skybox de lac"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 8,
+            "name": "Site de création et édition au format .obj",
+            "pictures": [
+                {
+                    "src": "captureSiteIN.jpg",
+                    "alt": "Exemple d'une pyramide en format .obj"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 9,
+            "name": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
+            "pictures": [
+                {
+                    "src": "demo_graphique_sphere_tracing.jpg",
+                    "alt": "Rendu sphere tracing"
+                },
+                {
+                    "src": "demo_graphique_marching_cubes.jpg",
+                    "alt": "Rendu marching cubes"
+                },
+                {
+                    "src": "demo_graphique_dual_contouring.jpg",
+                    "alt": "Rendu dual contouring"
+                }
+            ],
+            "videos": [
+                {
+                    "src": "Projet_demo_graphique.mp4"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Animation moteur 3D avec shaders GLSL",
+            "pictures": [
+                {
+                    "src": "moteur3D.jpg",
+                    "alt": "Fx moteur 3D"
+                }
+            ],
+            "videos": [
+                {
+                    "src": "Demo_Moteur3D.mp4"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Développement de jeux-vidéo",
+            "pictures": [
+                {
+                    "src": "mosaic_games.jpg",
+                    "alt": "mosaique de jeux"
+                }
+            ],
+            "videos":[]
+        },
+        {
+            "id": 12,
+            "name": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
+            "pictures": [
+                {
+                    "src": "siteDL_fctDL.jpg",
+                    "alt": "Page fonctionnement du Deep-Learning"
+                },
+                {
+                    "src": "siteDL_algo.jpg",
+                    "alt": "Page algorithme"
+                },
+                {
+                    "src": "siteDL_graphique.jpg",
+                    "alt": "Page résultats de l'algorithme"
+                },
+                {
+                    "src": "siteDL_diffBibli.jpg",
+                    "alt": "Page présentation des bibliothèques de Deep-Learning"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 13,
+            "name": "Site DATAC",
+            "pictures": [
+                {
+                    "src": "DATAC_accueil.jpg",
+                    "alt": "Page d'acceuil"
+                },
+                {
+                    "src": "DATAC_dispositif.jpg",
+                    "alt": "Page exemple dispositif"
+                },
+                {
+                    "src": "DATAC_contacts.jpg",
+                    "alt": "Page contact"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 14,
+            "name": "Cube Creative Computer Company",
+            "pictures": [
+                {
+                    "src": "CUBE_CREATIVE.jpg",
+                    "alt": "Présentation projets Cube Creative"
+                }
+            ],
+            "videos": []
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "name": "Jeu de plateforme Bobby's Adventure",
+            "pictures": [
+                {
+                    "src": "Bobby's_extrait.jpg",
+                    "alt": "Bobby's Adventure"
+                }
+            ],
+            "videos": []
+        },
+        {
+            "id": 2,
+            "name": "Puzzle game musical plockit.io",
+            "pictures": [],
+            "videos": [
+                {
+                    "src": "Plockit_demo.mp4"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bejeweld fighter",
+            "pictures": [],
+            "videos": [
+                {
+                    "src": "Bejeweld_fighter_demo.mp4"
+                }
+            ]
+        }
+    ]
+}

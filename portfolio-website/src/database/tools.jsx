@@ -16,4 +16,4 @@ function getAllData(){
     });
 };
 
-export default getAllData
+export default getAllData;

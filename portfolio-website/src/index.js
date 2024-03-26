@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './index.scss';
 import Home from './pages/home';
+import Project from './pages/project';
 import Contact from './pages/contact';
 import About from './pages/about';
 import Error from './pages/error';
@@ -18,6 +19,7 @@ root.render(
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/project/:projectId" element={<Project/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<Error/>} />

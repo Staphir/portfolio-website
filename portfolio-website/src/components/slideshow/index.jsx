@@ -4,7 +4,7 @@ import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons
 import { Fragment, useState } from "react";
 
 function Slideshow({pictures}) {
-    const srcPath = './assets/projectsPresentationPictures/';
+    const srcPath = process.env.PUBLIC_URL + '/assets/projectsPresentationPictures/';
     const [pictureIndex, setPictureIndex] = useState(0);
     const nbPictures = pictures.length;
     
@@ -27,7 +27,7 @@ function Slideshow({pictures}) {
             <Fragment>
                 <FontAwesomeIcon icon={faChevronLeft} size="xl" className="controller-arrow left-arrow" onClick={previousPicture}></FontAwesomeIcon>
                 <FontAwesomeIcon icon={faChevronRight} size="xl" className="controller-arrow right-arrow" onClick={nextPicture}></FontAwesomeIcon>
-                <p className="picture-index">{pictureIndex+1 + "/" + nbPictures}</p>
+                {/* <p className="picture-index">{pictureIndex+1 + "/" + nbPictures}</p> */}
             </Fragment>}
         </div>
     )

@@ -1,0 +1,44 @@
+@use "sass:map";
+@use "sass:color";
+@use "../styles/global_variables" as gv;
+
+.project-page-title {
+    text-align: center;
+}
+
+.project-section {
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .project-media-container {
+        width: 60%;
+        color: map.get(gv.$colors, "second");
+    }
+
+    .project-description {
+        width: 35%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: map.get(gv.$colors, "gray");
+        border: solid 1px map.get(gv.$colors, "second");
+        border-radius: 5px;
+        color: map.get(gv.$colors, "second");
+        font-family: gv.$font-family;
+    
+        .description-title {
+            margin: 20px;
+            font-size: 20px;
+        }
+
+        .description-content {
+            font-size: 14px;
+            margin: 20px;
+            line-height: 22px;
+            overflow: hidden;
+        }
+    }
+}

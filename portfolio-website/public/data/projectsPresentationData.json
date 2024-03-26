@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Moteur de lancer de rayons",
-            "pictures": [
+            "cover": [
                 {
                     "src": "lr_final.jpg",
                     "alt": "Rendu global du lancer de rayon"
@@ -17,12 +17,33 @@
                     "alt": "Rendu de textures du lancer de rayon"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique - Semestre 2",
+                    "text": "Développement en C++ et OpenGL d'un moteur de lancer de rayon. Plusieurs techniques et algorithmes ont été implémentés pour le rendu, que ce soit au niveau de l'affichage de maillages et de primitives ou au niveau de l'éclairage.\nConcernant l'affichage d'objets, on utilise l'interpolation barycentrique, le BVH (Boundary Volume Hierarchy) et le CSG (Constructive Solid Geometry).\nConcernant l'éclairage, on retrouve La BRDF (Bidirectional Reflectance Distribution Function) Microfacet, des ombres douces, de la réflexion et de la réfraction.\nUn anti-aliasing avec la méthode supersampling a été codé.\nPour finir, de l'UV mapping pour le texturing des objets."
+                }
+            ]
         },
         {
             "id": 2,
             "name": "Geometry Nodes plume",
-            "pictures": [
+            "cover": [
                 {
                     "src": "Blender_feather.jpg",
                     "alt": "Plume sur blender avec le geometry nodes"
@@ -32,86 +53,225 @@
                     "alt": "Geometry nodes de la modélisation de plume"
                 }
             ],
-            "videos": [
+            "description": [
                 {
-                    "src": "Blender_feather.mp4"
+                    "title": "Geometry Nodes plume",
+                    "pictures": [
+                        {
+                            "src": "Blender_feather.jpg",
+                            "alt": "Plume sur blender avec le geometry nodes"
+                        },
+                        {
+                            "src": "Blender_feather_geometry_nodes.jpg",
+                            "alt": "Geometry nodes de la modélisation de plume"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src": "Blender_feather.mp4"
+                        }
+                    ],
+                    "time": "",
+                    "text": ""
                 }
             ]
         },
         {
             "id": 3,
             "name": "Geometry Nodes montagne",
-            "pictures": [
+            "cover": [
                 {
                     "src": "Blender_mountains.jpg",
                     "alt": "Modélisation montagnes sur Blender"
                 }
             ],
-            "videos": [
+            "description": [
                 {
-                    "src": "Blender_mountains.mp4"
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
                 }
             ]
         },
         {
             "id": 4,
             "name": "Modélisation de sabre laser sur 3DsMax",
-            "pictures": [
+            "cover": [
                 {
                     "src": "renduSabreLaser.jpg",
                     "alt": "Rendu sabre laser"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 5,
             "name": "Modélisation sur Blender",
-            "pictures": [
+            "cover": [
                 {
                     "src": "rendu_phenix_v1.png",
                     "alt": "Rendu phénix cubique"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 6,
             "name": "Eclairage d'objet en WebGL",
-            "pictures": [
+            "cover": [
                 {
                     "src": "pres_webgl_eclairage.png",
                     "alt": "Exemple d'éclairage avec Cook-Torrance"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 7,
             "name": "Réflexions et réfractions en WebGL",
-            "pictures": [
+            "cover": [
                 {
                     "src": "pres_webgl_reflect_refract.png",
                     "alt": "Exemple avec une sphère dans une skybox de lac"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 8,
             "name": "Site de création et édition au format .obj",
-            "pictures": [
+            "cover": [
                 {
                     "src": "captureSiteIN.jpg",
                     "alt": "Exemple d'une pyramide en format .obj"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 9,
             "name": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
-            "pictures": [
+            "cover": [
                 {
                     "src": "demo_graphique_sphere_tracing.jpg",
                     "alt": "Rendu sphere tracing"
@@ -125,42 +285,105 @@
                     "alt": "Rendu dual contouring"
                 }
             ],
-            "videos": [
+            "description": [
                 {
-                    "src": "Projet_demo_graphique.mp4"
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src": "Projet_demo_graphique.mp4"
+                        }
+                    ],
+                    "time": "",
+                    "text": ""
                 }
             ]
         },
         {
             "id": 10,
             "name": "Animation moteur 3D avec shaders GLSL",
-            "pictures": [
+            "cover": [
                 {
                     "src": "moteur3D.jpg",
                     "alt": "Fx moteur 3D"
                 }
             ],
-            "videos": [
+            "description": [
                 {
-                    "src": "Demo_Moteur3D.mp4"
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [
+                        {
+                            "src": "Demo_Moteur3D.mp4"
+                        }
+                    ],
+                    "time": "",
+                    "text": ""
                 }
             ]
         },
         {
             "id": 11,
             "name": "Développement de jeux-vidéo",
-            "pictures": [
+            "cover": [
                 {
                     "src": "mosaic_games.jpg",
                     "alt": "mosaique de jeux"
                 }
             ],
-            "videos":[]
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 12,
             "name": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
-            "pictures": [
+            "cover": [
                 {
                     "src": "siteDL_fctDL.jpg",
                     "alt": "Page fonctionnement du Deep-Learning"
@@ -178,12 +401,33 @@
                     "alt": "Page présentation des bibliothèques de Deep-Learning"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 13,
             "name": "Site DATAC",
-            "pictures": [
+            "cover": [
                 {
                     "src": "DATAC_accueil.jpg",
                     "alt": "Page d'acceuil"
@@ -197,25 +441,67 @@
                     "alt": "Page contact"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         },
         {
             "id": 14,
             "name": "Cube Creative Computer Company",
-            "pictures": [
+            "cover": [
                 {
                     "src": "CUBE_CREATIVE.jpg",
                     "alt": "Présentation projets Cube Creative"
                 }
             ],
-            "videos": []
+            "description": [
+                {
+                    "title": "Moteur de lancer de rayons",
+                    "pictures": [
+                        {
+                            "src": "lr_final.jpg",
+                            "alt": "Rendu global du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_mirroir.jpg",
+                            "alt": "Rendu mirroir du lancer de rayon"
+                        },
+                        {
+                            "src": "lr_textures.jpg",
+                            "alt": "Rendu de textures du lancer de rayon"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "",
+                    "text": ""
+                }
+            ]
         }
     ],
     "games": [
         {
             "id": 1,
             "name": "Jeu de plateforme Bobby's Adventure",
-            "pictures": [
+            "cover": [
                 {
                     "src": "Bobby's_extrait.jpg",
                     "alt": "Bobby's Adventure"
@@ -226,7 +512,7 @@
         {
             "id": 2,
             "name": "Puzzle game musical plockit.io",
-            "pictures": [],
+            "cover": [],
             "videos": [
                 {
                     "src": "Plockit_demo.mp4"
@@ -236,7 +522,7 @@
         {
             "id": 3,
             "name": "Bejeweld fighter",
-            "pictures": [],
+            "cover": [],
             "videos": [
                 {
                     "src": "Bejeweld_fighter_demo.mp4"

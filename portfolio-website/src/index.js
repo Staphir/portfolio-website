@@ -10,6 +10,7 @@ import About from './pages/about';
 import Error from './pages/error';
 import Header from './components/header';
 import Footer from './components/footer';
+import MainCookTorranceM2 from './projetsWebGLM2/CookTorrance/mainCookTorranceM2';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/project/:projectId" element={<Project/>} />
+        <Route path="/cookTorranceM2" element={<MainCookTorranceM2/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/about" element={<About/>} />
         <Route path="*" element={<Error/>} />

@@ -1,5 +1,5 @@
 import '../styles/project.scss';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import PlayerContainer from '../components/player';
 import Slideshow from '../components/slideshow';
 
@@ -18,7 +18,13 @@ function Project() {
                     <div className='project-description'>
                         <h2 className='description-title'>{description.time}</h2>
                         <p className='description-content'>{description.text}</p>
+                        {/* {description.link.length > 0 && description.link.map((link) => {
+                            return <Link to={link.src} className='description-link'>{link.text}</Link>
+                        })} */}
                     </div>
+                    {/* {description.link.length > 0 && description.link.map((link) => {
+                        return <iframe src={link.src}></iframe>
+                    })} */}
                 </section>
             })}
         </main>

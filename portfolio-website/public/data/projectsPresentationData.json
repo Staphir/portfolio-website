@@ -35,8 +35,9 @@
                         }
                     ],
                     "videos": [],
-                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique - Semestre 2",
-                    "text": "Développement en C++ et OpenGL d'un moteur de lancer de rayon. Plusieurs techniques et algorithmes ont été implémentés pour le rendu, que ce soit au niveau de l'affichage de maillages et de primitives ou au niveau de l'éclairage.\nConcernant l'affichage d'objets, on utilise l'interpolation barycentrique, le BVH (Boundary Volume Hierarchy) et le CSG (Constructive Solid Geometry).\nConcernant l'éclairage, on retrouve La BRDF (Bidirectional Reflectance Distribution Function) Microfacet, des ombres douces, de la réflexion et de la réfraction.\nUn anti-aliasing avec la méthode supersampling a été codé.\nPour finir, de l'UV mapping pour le texturing des objets."
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Développement en C++ et OpenGL d'un moteur de lancer de rayon. Plusieurs techniques et algorithmes ont été implémentés pour le rendu, que ce soit au niveau de l'affichage de maillages et de primitives ou au niveau de l'éclairage.\nConcernant l'affichage d'objets, on utilise l'interpolation barycentrique, le BVH (Boundary Volume Hierarchy) et le CSG (Constructive Solid Geometry).Concernant l'éclairage, on retrouve La BRDF (Bidirectional Reflectance Distribution Function) Microfacet, des ombres douces, de la réflexion et de la réfraction.\nUn anti-aliasing avec la méthode supersampling a été codé.\nPour finir, de l'UV mapping pour le texturing des objets.",
+                    "link": []
                 }
             ]
         },
@@ -71,8 +72,9 @@
                             "src": "Blender_feather.mp4"
                         }
                     ],
-                    "time": "",
-                    "text": ""
+                    "time": "Projet Blender autodidacte",
+                    "text": "Utilisation du Geometry Nodes de Blender pour créer une plume à partir d'une courbe de Bézier.",
+                    "link": []
                 }
             ]
         },
@@ -87,7 +89,7 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Geometry Nodes montagne",
                     "pictures": [
                         {
                             "src": "lr_final.jpg",
@@ -102,15 +104,20 @@
                             "alt": "Rendu de textures du lancer de rayon"
                         }
                     ],
-                    "videos": [],
-                    "time": "",
-                    "text": ""
+                    "videos": [
+                        {
+                            "src": "Blender_mountains.mp4"
+                        }
+                    ],
+                    "time": "Projet Blender autodidacte",
+                    "text": "Création de Montagnes en utilisant le Weight Paint. Utilisation du Geometry Nodes de Blender.",
+                    "link": []
                 }
             ]
         },
         {
             "id": 4,
-            "name": "Modélisation de sabre laser sur 3DsMax",
+            "name": "Modélisation sur 3DsMax",
             "cover": [
                 {
                     "src": "renduSabreLaser.jpg",
@@ -119,24 +126,17 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Modélisation d'un sabre laser sur 3DsMax",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "renduSabreLaser.jpg",
+                            "alt": "Rendu sabre laser"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Master Informatique, Synthèse d’images et Conception Graphique",
+                    "text": "Modélisation de la garde d'un sabre laser sur 3DsMax.",
+                    "link": []
                 }
             ]
         },
@@ -151,24 +151,17 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Modélisation sur Blender",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "rendu_phenix_v1.png",
+                            "alt": "Rendu phénix cubique"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Projet Blender autodidacte",
+                    "text": "Modélisation low-poly d'un phénix.",
+                    "link": []
                 }
             ]
         },
@@ -183,24 +176,22 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Eclairage d'objet en WebGL",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "pres_webgl_eclairage.png",
+                            "alt": "Exemple d'éclairage avec Cook-Torrance"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Master Informatique, Synthèse d’images et Conception Graphique",
+                    "text": "Page web en javascript et WebGL pour de l'éclairage d'objet 3D. Deux algorithmes d'éclairages ont été implémenté : Phong et Cook-Torrance. Il est possible de modifier les paramètres des algorithmes. Trois objets sont disponibles. Il est également possible de déplacer la caméra et la position de la source lumineuse.",
+                    "link": [
+                        {
+                            "src": "../projetsWebGLM2/CookTorrance/main.html",
+                            "text": "Tester le projet"
+                        }
+                    ] 
                 }
             ]
         },
@@ -215,24 +206,17 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Réflexions et réfractions en WebGL",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "pres_webgl_reflect_refract.png",
+                            "alt": "Exemple avec une sphère dans une skybox de lac"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Page web en javascript et WebGL. Sur ce site on peut choisir de voir de la réflexion ou de la réfraction sur plusieurs types d'objets et dans des skybox différentes.",
+                    "link": []
                 }
             ]
         },
@@ -247,24 +231,17 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Site de création et édition au format .obj",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "captureSiteIN.jpg",
+                            "alt": "Exemple d'une pyramide en format .obj"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales",
+                    "text": "Site en javascript qui permet de créer des objets 3D en remplissant une zone de texte sous un format de fichier .obj. On peut ensuite afficher l'objet en \"filled\", en \"Wireframe\" ou seulement les\"Vertices\". On peut également faire tourner les objets en fonction. La lumière peut être modifiés que ce soit sa couleur, son intensité ou son type (ambiante, ponctuelle ou spot).",
+                    "link": []
                 }
             ]
         },
@@ -287,19 +264,19 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
+                            "src": "demo_graphique_sphere_tracing.jpg",
+                            "alt": "Rendu sphere tracing"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
+                            "src": "demo_graphique_marching_cubes.jpg",
+                            "alt": "Rendu marching cubes"
                         },
                         {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "demo_graphique_dual_contouring.jpg",
+                            "alt": "Rendu dual contouring"
                         }
                     ],
                     "videos": [
@@ -307,8 +284,9 @@
                             "src": "Projet_demo_graphique.mp4"
                         }
                     ],
-                    "time": "",
-                    "text": ""
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Développement en java et OpenGL d'une démo graphique. Trois algorithmes sont implémentés : Sphère Tracing, Marching Cube et Dual Contouring. Le tout est codé sur GPU pour avoir du parallélisme.",
+                    "link": []
                 }
             ]
         },
@@ -323,19 +301,11 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Animation moteur 3D avec shaders GLSL",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "moteur3D.jpg",
+                            "alt": "Fx moteur 3D"
                         }
                     ],
                     "videos": [
@@ -343,8 +313,9 @@
                             "src": "Demo_Moteur3D.mp4"
                         }
                     ],
-                    "time": "",
-                    "text": ""
+                    "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
+                    "text": "Animation FX sur modèle 3D avec des shaders GLSL",
+                    "link": []
                 }
             ]
         },
@@ -359,24 +330,25 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Développement de jeux-vidéo",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
+                            "src": "mosaic_games.jpg",
+                            "alt": "mosaique de jeux"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
+                            "src": "Bobby's_extrait.gif",
+                            "alt": "Gif Bobby's Adventure"
                         },
                         {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "pochette_plockit.png",
+                            "alt": "Plockit.io"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Durant différentes Game Jam",
+                    "text": "Jeux inventés et développés lors de différentes Game Jam en équipe. Créer avec Unity ou Godot. Il y a plusieurs types de jeu (puzzle game, jeu de plateforme, action tour par tour...). Tester les jeux sur : https://staphir.itch.io",
+                    "link": []
                 }
             ]
         },
@@ -403,24 +375,29 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
+                            "src": "siteDL_fctDL.jpg",
+                            "alt": "Page fonctionnement du Deep-Learning"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
+                            "src": "siteDL_algo.jpg",
+                            "alt": "Page algorithme"
                         },
                         {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "siteDL_graphique.jpg",
+                            "alt": "Page résultats de l'algorithme"
+                        },
+                        {
+                            "src": "siteDL_diffBibli.jpg",
+                            "alt": "Page présentation des bibliothèques de Deep-Learning"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales",
+                    "text": "Site web faisant office de compte rendu pour un projet autour du Deep-Learning. La problèmatique du projet était : résolution de casse-tête par des méthodes de Deep-Learning. Utilisation de python pour coder le casse-tête et la bibliothèque TensorFlow pour la partie Deep-Learning.",
+                    "link": []
                 }
             ]
         },
@@ -443,24 +420,25 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Site DATAC",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
+                            "src": "DATAC_accueil.jpg",
+                            "alt": "Page d'acceuil"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
+                            "src": "DATAC_dispositif.jpg",
+                            "alt": "Page exemple dispositif"
                         },
                         {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "DATAC_contacts.jpg",
+                            "alt": "Page contact"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "Stage de 10 semaines en 2017",
+                    "text": "Refonte du site DATAC, présentant un catalogue de dispositifs et aides techniques à la communication, destiné à toutes personnes en situation de handicap, leurs proches ainsi que les professionnels de santé. Le site est coder avec les technologies : javascript, Bootstrap, PHP et MySQL.",
+                    "link": []
                 }
             ]
         },
@@ -475,24 +453,17 @@
             ],
             "description": [
                 {
-                    "title": "Moteur de lancer de rayons",
+                    "title": "Cube Creative Computer Company",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
-                            "alt": "Rendu global du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_mirroir.jpg",
-                            "alt": "Rendu mirroir du lancer de rayon"
-                        },
-                        {
-                            "src": "lr_textures.jpg",
-                            "alt": "Rendu de textures du lancer de rayon"
+                            "src": "CUBE_CREATIVE.jpg",
+                            "alt": "Présentation projets Cube Creative"
                         }
                     ],
                     "videos": [],
-                    "time": "",
-                    "text": ""
+                    "time": "2021",
+                    "text": "Travail dans le studio d'animation 3D Cube Creative Computer Company. Je faisais partie de l'équipe R&D et codait en python et PyQt des outils pour aider les artistes du studio. Les missions pouvaient être des addons pour Blender ou des outils stand-alone pour automatiser des transferts de données.",
+                    "link": []
                 }
             ]
         }

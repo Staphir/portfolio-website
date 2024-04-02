@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "sass:color";
+@use "./global_variables" as gv;
+
+.contact {
+    padding: 25px;
+
+    .tmp-contact-p {
+        font-size: 18px;
+    }
+}

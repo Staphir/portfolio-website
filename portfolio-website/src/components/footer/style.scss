@@ -23,6 +23,10 @@ footer {
     color: map.get(gv.$colors, "gray");
     text-align: center;
     font-size: 12px;
+
+    a {
+        color: map.get(gv.$colors, "gray");
+    }
 }
 
 @media (min-width: gv.$desktop-width-min) {

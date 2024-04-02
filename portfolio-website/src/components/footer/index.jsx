@@ -4,7 +4,7 @@ import "./style.scss";
 function Footer() {
     return (
         <footer>
-            <p className="siteProperty">m.dulieu@outlook.fr - 07 82 82 27 91</p>
+            <p className="siteProperty"><a className="mail" href='mailto:m.dulieu@outlook.fr'>m.dulieu@outlook.fr</a> - 07 82 82 27 91</p>
         </footer>
     )
 }

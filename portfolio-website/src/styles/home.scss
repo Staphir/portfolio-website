@@ -2,11 +2,86 @@
 @use "sass:color";
 @use "../styles/global_variables" as gv;
 
-.projects-section {
-    background-color: map.get(gv.$colors, "gray");
+.home-page {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 25px;
-    gap: 25px;
+    background-color: map.get(gv.$colors, "gray");
+    
+    .myself-presentation {
+        background-color: map.get(gv.$colors, "gray");
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+        
+        .profile {
+            flex: 1 1 0;
+
+            .portrait {
+                height: auto;
+                width: 20%;
+                border-radius: 15%;
+                margin-left: 40%;
+            }
+            
+            .personal-infos {
+                list-style: none;
+                padding-left: 20px;
+                color: map.get(gv.$colors, "second");
+                margin-left: 40%;
+                font-size: 18px;
+
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .my-description {
+            flex: 1 1 0;
+
+            .my-name {
+                font-weight: bold;
+                color: black;
+                font-family: map.get(gv.$font-family, "title");
+            }
+
+            .my-description-text {
+                margin-top: 20px;
+                margin-right: 50px;
+                color: map.get(gv.$colors, "second");
+                white-space: pre-line;
+            }
+
+            .to-portfolio {
+                color: map.get(gv.$colors, "second");
+                
+                &:visited {
+                    color: map.get(gv.$colors, "third");
+                }
+            }
+        }
+
+    }
+    
+    .skills {
+        background-color: map.get(gv.$colors, "dark-gray");
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 0;
+            color: black;
+            font-family: map.get(gv.$font-family, "title");
+        }
+
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 50px;
+            gap: 25px;
+        }
+    }
+
+    
 }

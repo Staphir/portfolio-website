@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import './index.scss';
+import './styles/global_style.scss'
 import Home from './pages/home';
 import Project from './pages/project';
 import Contact from './pages/contact';
@@ -11,6 +11,7 @@ import Error from './pages/error';
 import Header from './components/header';
 import Footer from './components/footer';
 import MainCookTorranceM2 from './projetsWebGLM2/CookTorrance/mainCookTorranceM2';
+import Portfolio from './pages/portfolio';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +21,8 @@ root.render(
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/project/:projectId" element={<Project/>} />
+        <Route path="/portfolio" element={<Portfolio/>} />
+        <Route path="/portfolio/project/:projectId" element={<Project/>} />
         <Route path="/cookTorranceM2" element={<MainCookTorranceM2/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/about" element={<About/>} />

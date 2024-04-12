@@ -4,7 +4,7 @@ import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons
 import { Fragment, useState } from "react";
 
 function Slideshow({pictures}) {
-    const srcPath = process.env.PUBLIC_URL + '/assets/projectsPresentationPictures/';
+    const srcPath = process.env.PUBLIC_URL + '/assets';
     const [pictureIndex, setPictureIndex] = useState(0);
     const nbPictures = pictures.length;
     

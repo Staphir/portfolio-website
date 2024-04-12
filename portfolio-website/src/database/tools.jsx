@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 function getAllData(){
-    return axios.get('data/projectsPresentationData.json')
+    return axios.get('data/datas.json')
     .then(function (response) {
         // handle success
         return response.data;

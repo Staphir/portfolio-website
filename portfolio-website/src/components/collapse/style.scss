@@ -8,17 +8,25 @@
 
 .top-bar {
     width: 100%;
-    background-color: map.get(gv.$colors, "second");
+    background: linear-gradient(
+        map.get(gv.$colors, "second"),
+        map.get(gv.$colors, "third")
+    );
     border-radius: 5px;
     border-style: none;
     padding: 10px;
-    font-family: gv.$font-family;
-    font-size: 13px;
+    font-family: map.get(gv.$font-family, "title");
+    font-size: 12px;
     color: white;
     text-align: left;
+    transition: all 200ms ease-out;
+
+    &:hover {
+        box-shadow: 0px 3px 5px 0px map.get(gv.$colors, "dark-gray");
+    }
 
     .chevron {
-        color: map.get(gv.$colors, "third");
+        color: white;
         position: absolute;
         right: 10px;
         top: 10px; 
@@ -39,7 +47,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     color: map.get(gv.$colors, "second");
-    font-family: gv.$font-family;
+    font-family: map.get(gv.$font-family, "text");
     font-size: 12px;
     line-height: 15px;
     transition: height 300ms;
@@ -47,6 +55,7 @@
 
     .collapse-text {
         margin: 20px;
+        white-space: pre-line;
     }
 }
 
@@ -55,7 +64,7 @@
 @media (min-width: gv.$desktop-width-min) {
 
     .top-bar {
-        font-size: 24px;
+        font-size: 22px;
 
         .chevron {
             width: 24px;
@@ -64,7 +73,7 @@
     }
 
     .collapse-content {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 25px;
     }
 }

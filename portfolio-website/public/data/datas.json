@@ -1,19 +1,105 @@
 {
+    "myself": {
+        "portrait": {
+            "src": "/portrait.png",
+            "alt": "portrait"
+        },
+        "description": "Je suis développeur web front-end avec une spécialisation en React Js. J'ai également des compétences en informatique graphique et synthèse d'images.\n\nIntéressé voire captivé par le beau visuel, je retrouve cet aspect en tant que développeur front-end car mon objectif est de présenter à l'utilisateur des sites avec une navigation fluide et agréable visuellement.\n\nSur mon temps libre, j'apprends à utiliser le logiciel Blender. Plus particulièrement la modélisation procédurale qui me fascine.",
+        "competences": [
+            {
+                "name": "Javascript",
+                "picture": {
+                    "src":"/logosCompetences/javascript.jpg",
+                    "alt": "logo javascript"
+                }
+            },
+            {
+                "name": "React Js",
+                "picture": {
+                    "src":"/logosCompetences/reactjs.jpg",
+                    "alt": "logo react js"
+                }
+            },
+            {
+                "name": "Sass",
+                "picture": {
+                    "src":"/logosCompetences/sass.png",
+                    "alt": "logo sass"
+                }
+            },
+            {
+                "name": "Tailwind",
+                "picture": {
+                    "src":"/logosCompetences/tailwind.png",
+                    "alt": "logo tailwind"
+                }
+            },
+            {
+                "name": "WebGl",
+                "picture": {
+                    "src":"/logosCompetences/webgl.jpg",
+                    "alt": "logo webgl"
+                }
+            },
+            {
+                "name": "Git",
+                "picture": {
+                    "src":"/logosCompetences/git.jpg",
+                    "alt": "logo git"
+                }
+            },
+            {
+                "name": "Figma",
+                "picture": {
+                    "src":"/logosCompetences/figma.jpg",
+                    "alt": "logo figma"
+                }
+            },
+            {
+                "name": "Python",
+                "picture": {
+                    "src":"/logosCompetences/python.png",
+                    "alt": "logo python"
+                }
+            },
+            {
+                "name": "C++",
+                "picture": {
+                    "src":"/logosCompetences/c++.png",
+                    "alt": "logo c++"
+                }
+            },
+            {
+                "name": "MySql",
+                "picture": {
+                    "src":"/logosCompetences/mysql.jpg",
+                    "alt": "logo mysql"
+                }
+            },
+            {
+                "name": "Blender",
+                "picture": {
+                    "src":"/logosCompetences/blender.png",
+                    "alt": "logo blender"
+                }
+            }
+        ]
+    },
     "projects": [
         {
             "id": 1,
             "name": "Moteur de lancer de rayons",
             "cover": [
                 {
-                    "src": "lr_final.jpg",
+                    "src":"/projectsPresentationPictures/lr_final.jpg",
                     "alt": "Rendu global du lancer de rayon"
                 },
                 {
-                    "src": "lr_mirroir.jpg",
+                    "src":"/projectsPresentationPictures/lr_mirroir.jpg",
                     "alt": "Rendu mirroir du lancer de rayon"
                 },
                 {
-                    "src": "lr_textures.jpg",
+                    "src":"/projectsPresentationPictures/lr_textures.jpg",
                     "alt": "Rendu de textures du lancer de rayon"
                 }
             ],
@@ -22,15 +108,15 @@
                     "title": "Moteur de lancer de rayons",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
+                            "src":"/projectsPresentationPictures/lr_final.jpg",
                             "alt": "Rendu global du lancer de rayon"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
+                            "src":"/projectsPresentationPictures/lr_mirroir.jpg",
                             "alt": "Rendu mirroir du lancer de rayon"
                         },
                         {
-                            "src": "lr_textures.jpg",
+                            "src":"/projectsPresentationPictures/lr_textures.jpg",
                             "alt": "Rendu de textures du lancer de rayon"
                         }
                     ],
@@ -46,11 +132,11 @@
             "name": "Geometry Nodes plume",
             "cover": [
                 {
-                    "src": "Blender_feather.jpg",
+                    "src":"/projectsPresentationPictures/Blender_feather.jpg",
                     "alt": "Plume sur blender avec le geometry nodes"
                 },
                 {
-                    "src": "Blender_feather_geometry_nodes.jpg",
+                    "src":"/projectsPresentationPictures/Blender_feather_geometry_nodes.jpg",
                     "alt": "Geometry nodes de la modélisation de plume"
                 }
             ],
@@ -59,17 +145,17 @@
                     "title": "Geometry Nodes plume",
                     "pictures": [
                         {
-                            "src": "Blender_feather.jpg",
+                            "src":"/projectsPresentationPictures/Blender_feather.jpg",
                             "alt": "Plume sur blender avec le geometry nodes"
                         },
                         {
-                            "src": "Blender_feather_geometry_nodes.jpg",
+                            "src":"/projectsPresentationPictures/Blender_feather_geometry_nodes.jpg",
                             "alt": "Geometry nodes de la modélisation de plume"
                         }
                     ],
                     "videos": [
                         {
-                            "src": "Blender_feather.mp4"
+                            "src":"/projectsPresentationPictures/Blender_feather.mp4"
                         }
                     ],
                     "time": "Projet Blender autodidacte",
@@ -83,7 +169,7 @@
             "name": "Geometry Nodes montagne",
             "cover": [
                 {
-                    "src": "Blender_mountains.jpg",
+                    "src":"/projectsPresentationPictures/Blender_mountains.jpg",
                     "alt": "Modélisation montagnes sur Blender"
                 }
             ],
@@ -92,21 +178,21 @@
                     "title": "Geometry Nodes montagne",
                     "pictures": [
                         {
-                            "src": "lr_final.jpg",
+                            "src":"/projectsPresentationPictures/lr_final.jpg",
                             "alt": "Rendu global du lancer de rayon"
                         },
                         {
-                            "src": "lr_mirroir.jpg",
+                            "src":"/projectsPresentationPictures/lr_mirroir.jpg",
                             "alt": "Rendu mirroir du lancer de rayon"
                         },
                         {
-                            "src": "lr_textures.jpg",
+                            "src":"/projectsPresentationPictures/lr_textures.jpg",
                             "alt": "Rendu de textures du lancer de rayon"
                         }
                     ],
                     "videos": [
                         {
-                            "src": "Blender_mountains.mp4"
+                            "src":"/projectsPresentationPictures/Blender_mountains.mp4"
                         }
                     ],
                     "time": "Projet Blender autodidacte",
@@ -120,7 +206,7 @@
             "name": "Modélisation sur 3DsMax",
             "cover": [
                 {
-                    "src": "renduSabreLaser.jpg",
+                    "src":"/projectsPresentationPictures/renduSabreLaser.jpg",
                     "alt": "Rendu sabre laser"
                 }
             ],
@@ -129,7 +215,7 @@
                     "title": "Modélisation d'un sabre laser sur 3DsMax",
                     "pictures": [
                         {
-                            "src": "renduSabreLaser.jpg",
+                            "src":"/projectsPresentationPictures/renduSabreLaser.jpg",
                             "alt": "Rendu sabre laser"
                         }
                     ],
@@ -145,7 +231,7 @@
             "name": "Modélisation sur Blender",
             "cover": [
                 {
-                    "src": "rendu_phenix_v1.png",
+                    "src":"/projectsPresentationPictures/rendu_phenix_v1.png",
                     "alt": "Rendu phénix cubique"
                 }
             ],
@@ -154,7 +240,7 @@
                     "title": "Modélisation sur Blender",
                     "pictures": [
                         {
-                            "src": "rendu_phenix_v1.png",
+                            "src":"/projectsPresentationPictures/rendu_phenix_v1.png",
                             "alt": "Rendu phénix cubique"
                         }
                     ],
@@ -170,7 +256,7 @@
             "name": "Eclairage d'objet en WebGL",
             "cover": [
                 {
-                    "src": "pres_webgl_eclairage.png",
+                    "src":"/projectsPresentationPictures/pres_webgl_eclairage.png",
                     "alt": "Exemple d'éclairage avec Cook-Torrance"
                 }
             ],
@@ -179,7 +265,7 @@
                     "title": "Eclairage d'objet en WebGL",
                     "pictures": [
                         {
-                            "src": "pres_webgl_eclairage.png",
+                            "src":"/projectsPresentationPictures/pres_webgl_eclairage.png",
                             "alt": "Exemple d'éclairage avec Cook-Torrance"
                         }
                     ],
@@ -188,7 +274,7 @@
                     "text": "Page web en javascript et WebGL pour de l'éclairage d'objet 3D. Deux algorithmes d'éclairages ont été implémenté : Phong et Cook-Torrance. Il est possible de modifier les paramètres des algorithmes. Trois objets sont disponibles. Il est également possible de déplacer la caméra et la position de la source lumineuse.",
                     "link": [
                         {
-                            "src": "../projetsWebGLM2/CookTorrance/main.html",
+                            "src":"/projectsPresentationPictures/../projetsWebGLM2/CookTorrance/main.html",
                             "text": "Tester le projet"
                         }
                     ] 
@@ -200,7 +286,7 @@
             "name": "Réflexions et réfractions en WebGL",
             "cover": [
                 {
-                    "src": "pres_webgl_reflect_refract.png",
+                    "src":"/projectsPresentationPictures/pres_webgl_reflect_refract.png",
                     "alt": "Exemple avec une sphère dans une skybox de lac"
                 }
             ],
@@ -209,7 +295,7 @@
                     "title": "Réflexions et réfractions en WebGL",
                     "pictures": [
                         {
-                            "src": "pres_webgl_reflect_refract.png",
+                            "src":"/projectsPresentationPictures/pres_webgl_reflect_refract.png",
                             "alt": "Exemple avec une sphère dans une skybox de lac"
                         }
                     ],
@@ -225,7 +311,7 @@
             "name": "Site de création et édition au format .obj",
             "cover": [
                 {
-                    "src": "captureSiteIN.jpg",
+                    "src":"/projectsPresentationPictures/captureSiteIN.jpg",
                     "alt": "Exemple d'une pyramide en format .obj"
                 }
             ],
@@ -234,7 +320,7 @@
                     "title": "Site de création et édition au format .obj",
                     "pictures": [
                         {
-                            "src": "captureSiteIN.jpg",
+                            "src":"/projectsPresentationPictures/captureSiteIN.jpg",
                             "alt": "Exemple d'une pyramide en format .obj"
                         }
                     ],
@@ -250,15 +336,15 @@
             "name": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
             "cover": [
                 {
-                    "src": "demo_graphique_sphere_tracing.jpg",
+                    "src":"/projectsPresentationPictures/demo_graphique_sphere_tracing.jpg",
                     "alt": "Rendu sphere tracing"
                 },
                 {
-                    "src": "demo_graphique_marching_cubes.jpg",
+                    "src":"/projectsPresentationPictures/demo_graphique_marching_cubes.jpg",
                     "alt": "Rendu marching cubes"
                 },
                 {
-                    "src": "demo_graphique_dual_contouring.jpg",
+                    "src":"/projectsPresentationPictures/demo_graphique_dual_contouring.jpg",
                     "alt": "Rendu dual contouring"
                 }
             ],
@@ -267,21 +353,21 @@
                     "title": "Animation sur GPU avec algorithmes de Sphere Tracing, Marching Cubes et Dual Contouring",
                     "pictures": [
                         {
-                            "src": "demo_graphique_sphere_tracing.jpg",
+                            "src":"/projectsPresentationPictures/demo_graphique_sphere_tracing.jpg",
                             "alt": "Rendu sphere tracing"
                         },
                         {
-                            "src": "demo_graphique_marching_cubes.jpg",
+                            "src":"/projectsPresentationPictures/demo_graphique_marching_cubes.jpg",
                             "alt": "Rendu marching cubes"
                         },
                         {
-                            "src": "demo_graphique_dual_contouring.jpg",
+                            "src":"/projectsPresentationPictures/demo_graphique_dual_contouring.jpg",
                             "alt": "Rendu dual contouring"
                         }
                     ],
                     "videos": [
                         {
-                            "src": "Projet_demo_graphique.mp4"
+                            "src":"/projectsPresentationPictures/Projet_demo_graphique.mp4"
                         }
                     ],
                     "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
@@ -295,7 +381,7 @@
             "name": "Animation moteur 3D avec shaders GLSL",
             "cover": [
                 {
-                    "src": "moteur3D.jpg",
+                    "src":"/projectsPresentationPictures/moteur3D.jpg",
                     "alt": "Fx moteur 3D"
                 }
             ],
@@ -304,13 +390,13 @@
                     "title": "Animation moteur 3D avec shaders GLSL",
                     "pictures": [
                         {
-                            "src": "moteur3D.jpg",
+                            "src":"/projectsPresentationPictures/moteur3D.jpg",
                             "alt": "Fx moteur 3D"
                         }
                     ],
                     "videos": [
                         {
-                            "src": "Demo_Moteur3D.mp4"
+                            "src":"/projectsPresentationPictures/Demo_Moteur3D.mp4"
                         }
                     ],
                     "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
@@ -324,7 +410,7 @@
             "name": "Développement de jeux-vidéo",
             "cover": [
                 {
-                    "src": "mosaic_games.jpg",
+                    "src":"/projectsPresentationPictures/mosaic_games.jpg",
                     "alt": "mosaique de jeux"
                 }
             ],
@@ -333,21 +419,21 @@
                     "title": "Développement de jeux-vidéo",
                     "pictures": [
                         {
-                            "src": "mosaic_games.jpg",
+                            "src":"/projectsPresentationPictures/mosaic_games.jpg",
                             "alt": "mosaique de jeux"
                         },
                         {
-                            "src": "Bobby's_extrait.gif",
+                            "src":"/projectsPresentationPictures/Bobby's_extrait.gif",
                             "alt": "Gif Bobby's Adventure"
                         },
                         {
-                            "src": "pochette_plockit.png",
+                            "src":"/projectsPresentationPictures/pochette_plockit.png",
                             "alt": "Plockit.io"
                         }
                     ],
                     "videos": [],
                     "time": "Durant différentes Game Jam",
-                    "text": "Jeux inventés et développés lors de différentes Game Jam en équipe. Créer avec Unity ou Godot. Il y a plusieurs types de jeu (puzzle game, jeu de plateforme, action tour par tour...). Tester les jeux sur : https://staphir.itch.io",
+                    "text": "Jeux inventés et développés lors de différentes Game Jam en équipe. Créer avec Unity ou Godot. Il y a plusieurs types de jeu (puzzle game, jeu de plateforme, action tour par tour...).\n Tester les jeux sur : https://staphir.itch.io",
                     "link": []
                 }
             ]
@@ -357,19 +443,19 @@
             "name": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
             "cover": [
                 {
-                    "src": "siteDL_fctDL.jpg",
+                    "src":"/projectsPresentationPictures/siteDL_fctDL.jpg",
                     "alt": "Page fonctionnement du Deep-Learning"
                 },
                 {
-                    "src": "siteDL_algo.jpg",
+                    "src":"/projectsPresentationPictures/siteDL_algo.jpg",
                     "alt": "Page algorithme"
                 },
                 {
-                    "src": "siteDL_graphique.jpg",
+                    "src":"/projectsPresentationPictures/siteDL_graphique.jpg",
                     "alt": "Page résultats de l'algorithme"
                 },
                 {
-                    "src": "siteDL_diffBibli.jpg",
+                    "src":"/projectsPresentationPictures/siteDL_diffBibli.jpg",
                     "alt": "Page présentation des bibliothèques de Deep-Learning"
                 }
             ],
@@ -378,19 +464,19 @@
                     "title": "Site compte rendu projet résolution de casse-tête par des méthodes de Deep-Learning",
                     "pictures": [
                         {
-                            "src": "siteDL_fctDL.jpg",
+                            "src":"/projectsPresentationPictures/siteDL_fctDL.jpg",
                             "alt": "Page fonctionnement du Deep-Learning"
                         },
                         {
-                            "src": "siteDL_algo.jpg",
+                            "src":"/projectsPresentationPictures/siteDL_algo.jpg",
                             "alt": "Page algorithme"
                         },
                         {
-                            "src": "siteDL_graphique.jpg",
+                            "src":"/projectsPresentationPictures/siteDL_graphique.jpg",
                             "alt": "Page résultats de l'algorithme"
                         },
                         {
-                            "src": "siteDL_diffBibli.jpg",
+                            "src":"/projectsPresentationPictures/siteDL_diffBibli.jpg",
                             "alt": "Page présentation des bibliothèques de Deep-Learning"
                         }
                     ],
@@ -406,15 +492,15 @@
             "name": "Site DATAC",
             "cover": [
                 {
-                    "src": "DATAC_accueil.jpg",
+                    "src":"/projectsPresentationPictures/DATAC_accueil.jpg",
                     "alt": "Page d'acceuil"
                 },
                 {
-                    "src": "DATAC_dispositif.jpg",
+                    "src":"/projectsPresentationPictures/DATAC_dispositif.jpg",
                     "alt": "Page exemple dispositif"
                 },
                 {
-                    "src": "DATAC_contacts.jpg",
+                    "src":"/projectsPresentationPictures/DATAC_contacts.jpg",
                     "alt": "Page contact"
                 }
             ],
@@ -423,15 +509,15 @@
                     "title": "Site DATAC",
                     "pictures": [
                         {
-                            "src": "DATAC_accueil.jpg",
+                            "src":"/projectsPresentationPictures/DATAC_accueil.jpg",
                             "alt": "Page d'acceuil"
                         },
                         {
-                            "src": "DATAC_dispositif.jpg",
+                            "src":"/projectsPresentationPictures/DATAC_dispositif.jpg",
                             "alt": "Page exemple dispositif"
                         },
                         {
-                            "src": "DATAC_contacts.jpg",
+                            "src":"/projectsPresentationPictures/DATAC_contacts.jpg",
                             "alt": "Page contact"
                         }
                     ],
@@ -447,7 +533,7 @@
             "name": "Cube Creative Computer Company",
             "cover": [
                 {
-                    "src": "CUBE_CREATIVE.jpg",
+                    "src":"/projectsPresentationPictures/CUBE_CREATIVE.jpg",
                     "alt": "Présentation projets Cube Creative"
                 }
             ],
@@ -456,7 +542,7 @@
                     "title": "Cube Creative Computer Company",
                     "pictures": [
                         {
-                            "src": "CUBE_CREATIVE.jpg",
+                            "src":"/projectsPresentationPictures/CUBE_CREATIVE.jpg",
                             "alt": "Présentation projets Cube Creative"
                         }
                     ],
@@ -474,7 +560,7 @@
             "name": "Jeu de plateforme Bobby's Adventure",
             "cover": [
                 {
-                    "src": "Bobby's_extrait.jpg",
+                    "src":"/projectsPresentationPictures/Bobby's_extrait.jpg",
                     "alt": "Bobby's Adventure"
                 }
             ],
@@ -486,7 +572,7 @@
             "cover": [],
             "videos": [
                 {
-                    "src": "Plockit_demo.mp4"
+                    "src":"/projectsPresentationPictures/Plockit_demo.mp4"
                 }
             ]
         },
@@ -496,7 +582,7 @@
             "cover": [],
             "videos": [
                 {
-                    "src": "Bejeweld_fighter_demo.mp4"
+                    "src":"/projectsPresentationPictures/Bejeweld_fighter_demo.mp4"
                 }
             ]
         }

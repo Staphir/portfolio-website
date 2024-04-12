@@ -8,6 +8,7 @@ header {
     justify-content: space-between;
     padding: 20px 20px 27px 20px;
     background-color: map.get(gv.$colors, "first");
+    box-shadow: inset 0px -3px 8px 0px map.get(gv.$colors, "second");
 }
 
 .logo-cv {
@@ -24,7 +25,7 @@ header {
     a {
         text-decoration: none;
         color: map.get(gv.$colors, "gray");
-        font-family: gv.$font-family;
+        font-family: map.get(gv.$font-family, "title");
         font-size: 12px;
         align-self: center;
     }
@@ -35,6 +36,12 @@ header {
         border-width: 1px;
     }
 
+}
+
+.my-name {
+    color: map.get(gv.$colors, "gray");
+    font-family: map.get(gv.$font-family, "title");
+    font-size: 16px;
 }
 
 nav .active {
@@ -65,5 +72,10 @@ nav .active {
         a {
             font-size: 24px;
         }
+    }
+
+    .my-name {
+        font-size: 30px;
+        margin: 0;
     }
 }

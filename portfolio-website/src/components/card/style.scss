@@ -6,43 +6,38 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column-reverse;
-    // position: relative;
     width: 30%;
     height: 100%;
     align-self: center;
-    // border-style: double;
-    // border-width: 2px;
     border-radius: 10px;
-    // border-color: map.get(gv.$colors, "second");
     background-color: map.get(gv.$colors, "second");
 
     a {
         text-decoration: none;
     }
 
-    .project-title {
-        // position: absolute;
-        font-size: 16px;
-        // left: 20px;
-        // bottom: 0;
-        // width: 50%;
-        margin-left: 15px;
-        color: map.get(gv.$colors, "gray");
-        // z-index: 2;
+    .card-text {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 15px;
+        align-items: center;
+
+        .project-title {
+            font-size: 16px;
+            margin-left: 15px;
+            color: map.get(gv.$colors, "gray");
+            font-family: map.get(gv.$font-family, "text");  
+        }
+    
+        .button {
+            padding: 10px 30px;
+        }
     }
 
     .project-slideshow {
         position: absolute;
         border-radius: 10px;
         object-fit: cover;
-        // height: 80%;
-        // width: 100%;
     }
 
-}
-
-@media (min-width: gv.$desktop-width-min) {
-    .card {
-        // width: 340px;
-    }
 }

@@ -1,12 +1,39 @@
 import '../styles/about.scss';
 import Collapse from '../components/collapse';
+import { useEffect, useState } from 'react';
+import getAllData from '../database/tools';
 
 function About() {
 
+    const [myselfData, setMyselfData] = useState([]);
+
+    useEffect(() => {
+        getAllData().then((response) => {
+            setMyselfData(response.myself);
+        });
+    }, []);
+
     const collapsesContent = {
-        "Qui suis-je ?": "Cras erat mi, congue a cursus a, porttitor a tellus. Donec sodales lectus a dui porta elementum. Curabitur sed libero eu ante molestie sollicitudin eget ac odio. Fusce feugiat sodales mi, mattis hendrerit velit rhoncus sed. In ac ullamcorper erat. Ut at mauris odio. Cras quis purus vitae tellus fringilla accumsan. Vivamus et sapien in odio pulvinar pulvinar id eu lectus. Nunc et eros felis. Pellentesque mollis gravida lectus eu imperdiet. Nulla facilisi. Phasellus semper mauris vestibulum, vulputate dolor sed, fringilla elit. Praesent eget risus metus.",
-        "Formations": "Curabitur id feugiat nunc. Nam accumsan diam quis aliquam dictum. Quisque volutpat quam sit amet lacus laoreet, vitae porttitor massa sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam dapibus hendrerit sodales. Quisque viverra lacus vitae massa maximus, id fermentum felis aliquam. Quisque malesuada sapien libero, nec accumsan metus tempor id. Donec euismod in est id tincidunt. Suspendisse varius ligula in erat vulputate tempor. Etiam convallis, risus et pretium imperdiet, turpis dui aliquet augue, et efficitur nisi massa ut mauris. Pellentesque id sem tincidunt, dapibus tortor sit amet, ultrices eros.",
-        "Expériences professionnelles": "Etiam posuere eros id ligula fermentum, nec blandit diam faucibus. Mauris eu felis sem. Ut suscipit molestie nisl ut rhoncus. Fusce suscipit at dui quis cursus. Morbi ac dapibus ex, in vehicula elit. Nunc imperdiet, justo sed scelerisque dictum, justo ex elementum nunc, ac rhoncus odio risus vel turpis. Nam eleifend elementum vestibulum. Morbi justo nisl, sodales eu ultricies id, aliquam quis dolor. Pellentesque pharetra ex id arcu gravida, et mattis lacus porta."
+        "Qui suis-je ?": [
+            myselfData.description
+        ],
+        "Formations": [
+            "2015 | Bac S option sciences de l'ingénieur | Vienne (France)",
+            "2017 | DUT Informatique | Université Lyon 1 (site de Bourg-en-Bresse)",
+            "2019 | Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales option sciences cognitives | Bordeaux",
+            "2021 | Master Informatique, Synthèse d'Images et Conception Graphique | Limoges",
+            "2024 | Formation Développeur d'application - JavaScript React | OpenClassrooms (à distance)"
+        ],
+        "Expériences professionnelles": [
+            "Mars - Mai 2017 | Amélioration et mise en ligne du site web DATAC | Laboratoire de recherche IMS à Bordeaux",
+            "Janvier - Octobre 2021 | Infographiste développeur dans un studio d'animation | Cube Creative Computer Company"
+        ],
+        "Passions": [
+            "En plus de mon appétence pour le développement web et l'informatique graphique j'ai d'autres centres d'intérêt culturels et sportifs.",
+            "Mes univers préférés sont la fantaisie, la science-fiction et le Japon. Je les retrouve dans mes lectures de romans, mangas et bandes dessinées mais aussi dans les jeux vidéo auquels je joue.",
+            "J'aime également le cinéma tant que ce n'est pas des films d'horreur... c'est pourquoi je confectionne régulièrement des quiz sur le cinéma mais je peux aussi créer des quiz musicaux. C'est avec ça et ma grande collection de jeux de société que je passe mon temps avec mes groupes d'amis et ma famille.",
+            "Pour finir, mes sports préférés sont le badminton et l'ultimate (un jeu de frisbee opposant deux équipes de 5 ou 7 joueurs)."
+        ]
     }
 
     return( 

@@ -1,0 +1,29 @@
+@use "sass:map";
+@use "sass:color";
+@use "../../styles/global_variables" as gv;
+
+.mini-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background-color: color.change(map.get(gv.$colors, "third"), $alpha: 0.2);
+    border: solid 2px map.get(gv.$colors, "second");
+    border-radius: 5px;
+    width: 64px;
+    height: auto;
+    padding: 10px;
+
+    .icon {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: auto;
+        width: 100%;
+    }
+
+    .name {
+        text-align: center;
+        color: black;
+        margin-bottom: 0;
+    }
+}

@@ -22,11 +22,17 @@ function Collapse({title, content}) {
 
     return (
         <div className="collapse">
-            <button className="top-bar">
+            <button className="top-bar" onClick={toggleDropdown}>
                 {title}
                 <FontAwesomeIcon icon={faChevronDown} className={"chevron " + chevronPosition} onClick={toggleDropdown}></FontAwesomeIcon>
             </button>
-            <div ref={collapseContentRef} className="collapse-content" style={isOpen ? {height : collapseContentRef.current.scrollHeight + "px"} : {height: "0px"}}><div className="collapse-text">{content}</div></div>
+            <div ref={collapseContentRef} className="collapse-content" style={isOpen ? {height : collapseContentRef.current.scrollHeight + "px"} : {height: "0px"}}>
+                <div className="collapse-text">
+                    {content.map((contentLine) => {
+                        return <p>{contentLine}</p>;
+                    })}
+                </div>
+            </div>
         </div>
     );
 }

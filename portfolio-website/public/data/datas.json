@@ -87,6 +87,128 @@
     },
     "projects": [
         {
+            "id": 0,
+            "name": "Projets formation OpenClassrooms : Développeur React",
+            "cover": [
+                {
+                    "src":"/projectsPresentationPictures/kasa_home.jpg",
+                    "alt": "Site Kasa"
+                },
+                {
+                    "src":"/projectsPresentationPictures/sportsee.jpg",
+                    "alt": "Site sportsee"
+                },
+                {
+                    "src":"/projectsPresentationPictures/fisheye_people.jpg",
+                    "alt": "Site fisheye"
+                },
+                {
+                    "src":"/projectsPresentationPictures/lespetitsplats_1.jpg",
+                    "alt": "Site les petits plats"
+                },
+                {
+                    "src":"/projectsPresentationPictures/ohmyfood_home.jpg",
+                    "alt": "Site Oh my food"
+                }
+            ],
+            "description": [
+                {
+                    "id": 0,
+                    "title": "Kasa",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/kasa_home.jpg",
+                            "alt": "Kasa accueil"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/kasa_house.jpg",
+                            "alt": "Kasa page logement"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/kasa_about.jpg",
+                            "alt": "Kasa à propos"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Plateforme web de location de logements. Création de nombreux composants React comme un collapse ou un carrousel. Navigation entre les pages du site grâce à React Router.\nReact | React Router | Sass",
+                    "link": []
+                },
+                {
+                    "id": 1,
+                    "title": "SportSee",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/sportsee.jpg",
+                            "alt": "SportSee"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Développement d'un dashboard analytic pour application web de suivi d'activité sportive. Création des graphiques grâce à la bibliothèque Recharts.\nRecharts | React | Sass",
+                    "link": []
+                },
+                {
+                    "id": 2,
+                    "title": "Les petits plats",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/lespetitsplats_1.jpg",
+                            "alt": "Page les petits plats 1"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/lespetitsplats_2.jpg",
+                            "alt": "Page les petits plats 2"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Site regroupant de nombreux plats. Programmation d'un système de recherche par mots-clés et par tags.\nJavascript | Tailwind CSS | JSON",
+                    "link": []
+                },
+                {
+                    "id": 3,
+                    "title": "Fisheye",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_home.jpg",
+                            "alt": "Page fisheye accueil"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_people.jpg",
+                            "alt": "Page fisheye photographe"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/fisheye_picture.jpg",
+                            "alt": "Page fisheye photographe carrousel ouvert"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Développement d'une plateforme web pour photographes. Utilisation d'un fichier JSON et de requêtes fetch pour ce qui concerne la base de données des photos et vidéos de chaque profils de photographes.\nJavascript | JSON | CSS ",
+                    "link": []
+                },
+                {
+                    "id": 4,
+                    "title": "Oh my food",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/ohmyfood_home.jpg",
+                            "alt": "Accueil Oh my food"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/ohmyfood_menu.jpg",
+                            "alt": "Menu Oh my food"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Formation Développeur Javascript React",
+                    "text": "Site présentant des restaurants et leur menu. Développé en \"mobile first\" avec pour objectif d'avoir une responsivité mobile, tablette et desktop. Utilisation de Sass pour le visuel et les animations\nSass",
+                    "link": []
+                }
+            ]
+        },
+        {
             "id": 1,
             "name": "Moteur de lancer de rayons",
             "cover": [
@@ -416,24 +538,79 @@
             ],
             "description": [
                 {
-                    "title": "Développement de jeux-vidéo",
+                    "id": 0,
+                    "title": "Bobby's Adventure",
                     "pictures": [
                         {
-                            "src":"/projectsPresentationPictures/mosaic_games.jpg",
-                            "alt": "mosaique de jeux"
-                        },
-                        {
                             "src":"/projectsPresentationPictures/Bobby's_extrait.gif",
-                            "alt": "Gif Bobby's Adventure"
-                        },
-                        {
-                            "src":"/projectsPresentationPictures/pochette_plockit.png",
-                            "alt": "Plockit.io"
+                            "alt": "Bobby's Adventure"
                         }
                     ],
                     "videos": [],
-                    "time": "Durant différentes Game Jam",
-                    "text": "Jeux inventés et développés lors de différentes Game Jam en équipe. Créer avec Unity ou Godot. Il y a plusieurs types de jeu (puzzle game, jeu de plateforme, action tour par tour...).\n Tester les jeux sur : https://staphir.itch.io",
+                    "time": "Global Game Jam 2020",
+                    "text": "Jeu de plateforme créé sur Unity en 48h avec une équipe de 5 personnes.\n Télécharger le jeu sur : https://aaronterg.itch.io/bobbys-adventure",
+                    "link": []
+                },
+                {
+                    "id": 1,
+                    "title": "Plockit.io",
+                    "pictures": [],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Plockit_demo.mp4"
+                        }
+                    ],
+                    "time": "Game Jam GMTK 2021",
+                    "text": "Puzzle game musical créé à 4 sur Unity et en 48h.\n Télécharger le jeu sur : https://staphir.itch.io/plockit",
+                    "link": []
+                },
+                {
+                    "id": 2,
+                    "title": "Bejeweld fighter",
+                    "pictures": [],
+                    "videos": [
+                        {
+                            "src":"/projectsPresentationPictures/Bejeweld_fighter_demo.mp4"
+                        }
+                    ],
+                    "time": "Game Jam Video Game Lab 2021",
+                    "text": "Puzzle game créé à 2 sur Unity en 48h.\n Tester le jeu sur : https://staphir.itch.io/bejeweled-fighter",
+                    "link": []
+                },
+                {
+                    "id": 3,
+                    "title": "Dungeon lucky dice",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/dungeon_lucky_dice_menu.jpg",
+                            "alt": "Menu dungeon lucky dice"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/dungeon_lucky_dice_game.jpg",
+                            "alt": "En jeu dungeon lucky dice"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Game Jam GMTK 2021",
+                    "text": "Jeu de combat en tour par tour créé à 2 sur Unity en 48h.\n Tester le jeu sur : https://staphir.itch.io/dungeon-lucky-dice",
+                    "link": []
+                },
+                {
+                    "id": 4,
+                    "title": "Library fight",
+                    "pictures": [
+                        {
+                            "src":"/projectsPresentationPictures/library_fight_menu.png",
+                            "alt": "Menu library fight"
+                        },
+                        {
+                            "src":"/projectsPresentationPictures/library_fight_game.png",
+                            "alt": "En jeu library fight"
+                        }
+                    ],
+                    "videos": [],
+                    "time": "Game Jam Ludum Dare 54 (2023)",
+                    "text": "Jeu multijoueur créé à 2 sur Godot en 48h.\n Tester le jeu sur : https://engagegagne.itch.io/library-fight",
                     "link": []
                 }
             ]

@@ -3,7 +3,7 @@ import React from 'react';
 import { Player } from 'video-react';
 
 function PlayerContainer({video}) {
-    const srcPath = process.env.PUBLIC_URL + '/assets/projectsPresentationPictures/';
+    const srcPath = process.env.PUBLIC_URL + '/assets';
     const srcVideo = srcPath+video.src;
     return (
         <Player>

@@ -3,17 +3,23 @@
 @use "../../styles/global_variables" as gv;
 
 .button {
-    padding: 15px;
-    margin: 10px auto 10px auto;
+    padding: 5px;
+    margin: 5px auto;
     text-align: center;
     color: white;
     border-style: none;
-    border-radius: 25px;
+    border-radius: 20px;
     background: linear-gradient(
     map.get(gv.$colors, "second"),
     map.get(gv.$colors, "third")
     );
     transition: all 500ms;
+
+    @media (min-width: gv.$desktop-width-min) {
+        padding: 15px;
+        margin: 10px auto;
+        border-radius: 25px;
+    }
     
     &:hover {
         box-shadow: 0px 3px 5px 0px map.get(gv.$colors, "dark-gray");

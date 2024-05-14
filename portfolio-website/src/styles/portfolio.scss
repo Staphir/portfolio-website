@@ -5,8 +5,15 @@
 .projects-section {
     background-color: map.get(gv.$colors, "gray");
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     padding: 25px;
-    gap: 25px;
+    gap: 15px;
+
+    @media (min-width: gv.$desktop-width-min) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
 }

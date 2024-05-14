@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #other
-notes.txt
+notes.md
+src/projectL3Obj

@@ -424,7 +424,7 @@
                     "videos": [],
                     "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
                     "text": "Page web en javascript et WebGL. Sur ce site on peut choisir de voir de la réflexion ou de la réfraction sur plusieurs types d'objets et dans des skybox différentes.",
-                    "link": []
+                    "link": ["/webglmasterSkybox"]
                 }
             ]
         },

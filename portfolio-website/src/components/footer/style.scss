@@ -8,36 +8,34 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     row-gap: 10px;
-    padding: 66px 20px 46px 20px;
+    padding: 20px 20px 20px 20px;
     bottom: 0;
-}
-
-.logo-footer {
-    object-fit: cover;
-    height: 100%;
-    width: 122px;
-    align-self: center;
-}
-
-.siteProperty {
-    align-self: center;
-    color: map.get(gv.$colors, "gray");
-    text-align: center;
-    font-size: 12px;
-
-    a {
-        color: map.get(gv.$colors, "gray");
-    }
-}
-
-@media (min-width: gv.$desktop-width-min) {
-
-    footer {
+    
+    @media (min-width: gv.$desktop-width-min) {
         row-gap: 10px;
         padding: 25px 483px 25px 483px;
     }
-
+    
+    
+    .logo-footer {
+        object-fit: cover;
+        height: 100%;
+        width: 122px;
+        align-self: center;
+    }
+    
     .siteProperty {
-        font-size: 24px;
+        align-self: center;
+        color: map.get(gv.$colors, "gray");
+        text-align: center;
+        font-size: 12px;
+        
+        @media (min-width: gv.$desktop-width-min) {
+            font-size: 24px;
+        }
+        
+        a {
+            color: map.get(gv.$colors, "gray");
+        }
     }
 }

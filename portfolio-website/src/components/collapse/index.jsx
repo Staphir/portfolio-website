@@ -28,8 +28,8 @@ function Collapse({title, content}) {
             </button>
             <div ref={collapseContentRef} className="collapse-content" style={isOpen ? {height : collapseContentRef.current.scrollHeight + "px"} : {height: "0px"}}>
                 <div className="collapse-text">
-                    {content.map((contentLine) => {
-                        return <p>{contentLine}</p>;
+                    {content.map((contentLine, index) => {
+                        return <p key={index}>{contentLine}</p>;
                     })}
                 </div>
             </div>

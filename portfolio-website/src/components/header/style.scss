@@ -6,76 +6,71 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 20px 27px 20px;
+    padding: 20px 15px 20px 15px;
     background-color: map.get(gv.$colors, "first");
     box-shadow: inset 0px -3px 8px 0px map.get(gv.$colors, "second");
-}
 
-.logo-cv {
-    object-fit: cover;
-    height: 100%;
-    width: 36px;
+    @media (min-width: gv.$desktop-width-min) {
+        padding: 25px 80px 25px 80px;
+    }
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
-    column-gap: 26px;
+    column-gap: 10px;
+
+    @media (min-width: gv.$desktop-width-min) {
+        column-gap: 45px;
+    }
 
     a {
         text-decoration: none;
         color: map.get(gv.$colors, "gray");
         font-family: map.get(gv.$font-family, "title");
-        font-size: 12px;
+        font-size: 10px;
         align-self: center;
+
+        @media (min-width: gv.$desktop-width-min) {
+            transition: color 800ms, font-size 800ms;
+            font-size: 24px;
+        }
+
+        &:hover {
+            border-bottom-style: solid;
+            border-bottom-color: map.get(gv.$colors, "first");
+            border-width: 1px;
+
+            @media (min-width: gv.$desktop-width-min) {
+                color: lighten(map.get(gv.$colors, "third"), 20);
+                font-size: 26px;
+            }
+        }
     }
-
-    a:hover {
-        border-bottom-style: solid;
-        border-bottom-color: map.get(gv.$colors, "first");
-        border-width: 1px;
-    }
-
-}
-
-.my-name {
-    color: map.get(gv.$colors, "gray");
-    font-family: map.get(gv.$font-family, "title");
-    font-size: 16px;
 }
 
 nav .active {
     text-decoration: underline;
 }
 
-@media (min-width: gv.$desktop-width-min) {
+.logos-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 
-    header {
-        padding: 25px 80px 25px 80px;
+    @media (min-width: gv.$desktop-width-min) {
+        gap: 15px;
     }
 
-    .logos-links {
-        display: flex;
-        justify-content: space-between;
-        gap: 15px;
+    img {
+        width: 17px;
+        height: 100%;
+        object-fit: contain;
 
-        img {
+        @media (min-width: gv.$desktop-width-min) {
             width: 50px;
             height: 100%;
             object-fit: contain;
         }
-    }
-
-    .menu {
-        column-gap: 45px;
-
-        a {
-            font-size: 24px;
-        }
-    }
-
-    .my-name {
-        font-size: 30px;
-        margin: 0;
     }
 }

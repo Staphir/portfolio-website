@@ -394,12 +394,7 @@
                     "videos": [],
                     "time": "Master Informatique, Synthèse d’images et Conception Graphique",
                     "text": "Page web en javascript et WebGL pour de l'éclairage d'objet 3D. Deux algorithmes d'éclairages ont été implémenté : Phong et Cook-Torrance. Il est possible de modifier les paramètres des algorithmes. Trois objets sont disponibles. Il est également possible de déplacer la caméra et la position de la source lumineuse.",
-                    "link": [
-                        {
-                            "src":"/projectsPresentationPictures/../projetsWebGLM2/CookTorrance/main.html",
-                            "text": "Tester le projet"
-                        }
-                    ] 
+                    "link": ["/projetsWebGLM2/CookTorrance/main.html"] 
                 }
             ]
         },
@@ -424,7 +419,7 @@
                     "videos": [],
                     "time": "Master Informatique, Synthèse d'Images et Conception Graphique",
                     "text": "Page web en javascript et WebGL. Sur ce site on peut choisir de voir de la réflexion ou de la réfraction sur plusieurs types d'objets et dans des skybox différentes.",
-                    "link": ["/webglmasterSkybox"]
+                    "link": ["/projetsWebGLM2/Skybox_ReflectRefract/main.html"]
                 }
             ]
         },
@@ -449,7 +444,7 @@
                     "videos": [],
                     "time": "Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales",
                     "text": "Site en javascript qui permet de créer des objets 3D en remplissant une zone de texte sous un format de fichier .obj. On peut ensuite afficher l'objet en \"filled\", en \"Wireframe\" ou seulement les\"Vertices\". On peut également faire tourner les objets en fonction. La lumière peut être modifiés que ce soit sa couleur, son intensité ou son type (ambiante, ponctuelle ou spot).",
-                    "link": []
+                    "link": ["/projectL3Obj/index.html"]
                 }
             ]
         },

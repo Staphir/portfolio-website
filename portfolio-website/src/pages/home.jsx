@@ -25,7 +25,6 @@ function Home() {
         <main className='home-page'>
             <section className='myself-presentation'>
                 <h1 className='my-name'>Maxime Dulieu</h1>
-                {/* <section className='profile'> */}
                 {myselfDatas && (
                     <img className='portrait' src={process.env.PUBLIC_URL + '/assets' + myselfDatas.portrait.src} alt={myselfDatas.portrait.alt}></img>
                     )
@@ -36,7 +35,6 @@ function Home() {
                     {/* <li>Localisation : Montpellier, Bordeaux ou Grenoble</li> */}
                     <li>Disponible : Oui</li>
                 </ul>
-                {/* </section> */}
                 {myselfDatas && (
                     <section className='my-description'>
                         <p className='my-description-text'>{myselfDatas.description}</p>

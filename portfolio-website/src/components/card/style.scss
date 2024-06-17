@@ -8,8 +8,8 @@
     flex-direction: column-reverse;
     align-self: center;
     border-radius: 10px;
-    background-color: map.get(gv.$colors, "second");
-    box-shadow: 0px 1px 5px 1px map.get(gv.$colors, "dark-gray");
+    background-color: lighten(map.get(gv.$colors, "background"), 15);
+    box-shadow: 0px 1px 5px 1px darken(map.get(gv.$colors, "background"), 15);
 
     @media (min-width: gv.$desktop-width-min) {
         width: 30%;
@@ -29,7 +29,7 @@
         .project-title {
             font-size: 14px;
             margin-left: 15px;
-            color: map.get(gv.$colors, "gray");
+            color: map.get(gv.$colors, "title");
             font-family: map.get(gv.$font-family, "text");
 
             @media (min-width: gv.$desktop-width-min) {

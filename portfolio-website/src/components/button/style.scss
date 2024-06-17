@@ -6,14 +6,14 @@
     padding: 5px;
     margin: 5px auto;
     text-align: center;
-    color: white;
+    color: map.get(gv.$colors, "title");
     border-style: none;
     border-radius: 20px;
     background: linear-gradient(
-    map.get(gv.$colors, "second"),
-    map.get(gv.$colors, "third")
+    map.get(gv.$colors, "dark-color"),
+    map.get(gv.$colors, "light-color")
     );
-    transition: all 500ms;
+    transition: all 300ms;
 
     @media (min-width: gv.$desktop-width-min) {
         padding: 15px;
@@ -22,7 +22,7 @@
     }
     
     &:hover {
-        box-shadow: 0px 3px 5px 0px map.get(gv.$colors, "dark-gray");
+        box-shadow: 0px 3px 5px 0px map.get(gv.$colors, "background");
         cursor: pointer;
     }
 }

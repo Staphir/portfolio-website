@@ -3,7 +3,7 @@
 @use "../../styles/global_variables" as gv;
 
 footer {
-    background-color: map.get(gv.$colors, "first");
+    background-color: map.get(gv.$colors, "background");
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,7 +26,7 @@ footer {
     
     .siteProperty {
         align-self: center;
-        color: map.get(gv.$colors, "gray");
+        color: map.get(gv.$colors, "text");
         text-align: center;
         font-size: 12px;
         
@@ -35,7 +35,7 @@ footer {
         }
         
         a {
-            color: map.get(gv.$colors, "gray");
+            color: map.get(gv.$colors, "text");
         }
     }
 }

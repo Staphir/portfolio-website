@@ -3,7 +3,7 @@
 @use "../styles/global_variables" as gv;
 
 .projects-section {
-    background-color: map.get(gv.$colors, "gray");
+    background-color: map.get(gv.$colors, "background");
     display: flex;
     flex-direction: column;
     justify-content: space-between;

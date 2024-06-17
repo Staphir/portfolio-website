@@ -19,7 +19,7 @@ function Project() {
       },[]);
 
     return( 
-        <main>
+        <main className='project-page'>
             <h1 className='project-page-title'>{projectData.name}</h1>
             {projectData.description.map((description) => {
                 return <section key={description.title} className='project-section'>

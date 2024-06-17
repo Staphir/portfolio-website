@@ -3,9 +3,14 @@
 @use "./global_variables" as gv;
 
 .contact {
+    background-color: map.get(gv.$colors, "background");
+    color: map.get(gv.$colors, "text");
     padding: 25px;
 
     .tmp-contact-p {
+        a {
+            color: map.get(gv.$colors, "text");
+        }
         font-size: 18px;
     }
 }

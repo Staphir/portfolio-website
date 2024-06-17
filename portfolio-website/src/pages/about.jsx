@@ -37,7 +37,7 @@ function About() {
     }
 
     return( 
-        <main>
+        <main className='about-page'>
             <section className="about-collapses">
                 {Object.keys(collapsesContent).map((collapseContent) => <Collapse key={collapseContent} title={collapseContent} content={collapsesContent[collapseContent]}></Collapse>)}
             </section>

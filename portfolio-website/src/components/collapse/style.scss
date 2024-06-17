@@ -9,8 +9,8 @@
 .top-bar {
     width: 100%;
     background: linear-gradient(
-        map.get(gv.$colors, "second"),
-        map.get(gv.$colors, "third")
+        map.get(gv.$colors, "dark-color"),
+        map.get(gv.$colors, "light-color")
     );
     border-radius: 5px;
     border-style: none;
@@ -22,7 +22,7 @@
     transition: all 200ms ease-out;
 
     &:hover {
-        box-shadow: 0px 3px 5px 0px map.get(gv.$colors, "dark-gray");
+        box-shadow: 0px 3px 5px 0px darken(map.get(gv.$colors, "background"), 15);
     }
 
     .chevron {
@@ -43,10 +43,10 @@
 }
 
 .collapse-content {
-    background-color: map.get(gv.$colors, "gray");
+    background-color: lighten(map.get(gv.$colors, "background"), 15);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    color: map.get(gv.$colors, "second");
+    color: map.get(gv.$colors, "text");
     font-family: map.get(gv.$font-family, "text");
     font-size: 12px;
     line-height: 15px;

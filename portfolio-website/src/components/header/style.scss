@@ -7,8 +7,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 15px 20px 15px;
-    background-color: map.get(gv.$colors, "first");
-    box-shadow: inset 0px -3px 8px 0px map.get(gv.$colors, "second");
+    background-color: map.get(gv.$colors, "background");
 
     @media (min-width: gv.$desktop-width-min) {
         padding: 25px 80px 25px 80px;
@@ -25,11 +24,11 @@ header {
     }
 
     a {
-        text-decoration: none;
-        color: map.get(gv.$colors, "gray");
+        color: map.get(gv.$colors, "text");
         font-family: map.get(gv.$font-family, "title");
         font-size: 10px;
         align-self: center;
+        text-decoration: none;
 
         @media (min-width: gv.$desktop-width-min) {
             transition: color 800ms, font-size 800ms;
@@ -37,12 +36,9 @@ header {
         }
 
         &:hover {
-            border-bottom-style: solid;
-            border-bottom-color: map.get(gv.$colors, "first");
-            border-width: 1px;
 
             @media (min-width: gv.$desktop-width-min) {
-                color: lighten(map.get(gv.$colors, "third"), 20);
+                color: map.get(gv.$colors, "light-color");
                 font-size: 26px;
             }
         }

@@ -20,7 +20,7 @@
 
     .controller-arrow {
         position: absolute;
-        color: map.get(gv.$colors, "third");
+        color: map.get(gv.$colors, "light-color");
         cursor: pointer;
     }
 
